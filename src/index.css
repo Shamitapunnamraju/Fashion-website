@@ -1,0 +1,20 @@
+/* src/index.css or src/App.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@tailwind content;
+
+/* Additional custom styles */
+.custom-button {
+  background-color: #3b82f6; /* Example color instead of bg-blue-500 */
+  color: #ffffff; /* Example color instead of text-white */
+  padding: 0.5rem 1rem; /* Example padding */
+  border-radius: 0.25rem; /* Example border radius */
+}
+
+/* Responsive design */
+@media (min-width: 640px) {
+  .custom-button {
+    font-size: 1.25rem; /* Example text size */
+  }
+}
